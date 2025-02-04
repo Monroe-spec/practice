@@ -3,6 +3,11 @@
 //    return parameter1 + parameter2;
 //}
 
+
+function keyPress(val) {
+    document.getElementById("display").value += val;
+  }
+
 function add() {
     const num = getValue();
     value += num;
